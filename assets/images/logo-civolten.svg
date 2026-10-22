@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="180" viewBox="0 0 760 180" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE08A"/>
+      <stop offset="45%" stop-color="#E1B441"/>
+      <stop offset="100%" stop-color="#BB7D10"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#C1CBD6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#091a2f" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <g transform="translate(16 18)">
+      <path d="M53 6 96 30 76 45 53 33 28 48 28 112 53 126 53 148 7 121 7 38Z" fill="url(#silver)"/>
+      <path d="M102 22 147 46 147 128 101 155 101 132 126 117 126 59 102 48Z" fill="url(#gold)"/>
+      <path d="M55 48h42l-17 26h22L63 128l11-39H54l17-41Z" fill="url(#gold)"/>
+      <path d="M102 44 76 59 61 50 86 34Z" fill="#0B2342" opacity=".85"/>
+    </g>
+    <text x="188" y="82" fill="url(#silver)" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="900" letter-spacing="1">CIVOL</text>
+    <text x="432" y="82" fill="url(#gold)" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="900" letter-spacing="1">TEN</text>
+    <rect x="188" y="98" width="400" height="4" rx="2" fill="url(#gold)"/>
+    <text x="214" y="135" fill="#F4F7FB" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="2">ELÉTRICA &amp; CONSTRUÇÃO CIVIL</text>
+  </g>
+</svg>
